@@ -1,15 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-package hotel.aplicacion;
-
-import hotel.modelo.Cliente;
-import hotel.modelo.Reserva;
-import hotel.modelo.TipoHabitacion;
-import hotel.utilidades.Utilidades;
-import java.time.LocalDate;
-import java.util.Scanner;
-
 /**
  *
  * @author David
@@ -23,8 +14,12 @@ import hotel.utilidades.Utilidades;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Hotel {
+ /** Claramente es la clase principal para crear clientes y reservas en el hotel */
 
+public class Hotel {
+	
+ /** Crea menú interactivo para gestionar los clientes y reservas */
+	
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Cliente cliente1 = null, cliente2 = null, cliente3 = null;
@@ -87,6 +82,8 @@ public class Hotel {
 
         sc.close();
     }
+    
+    /** solicita al cliente los datos para crear el nuevo cliente */
 
     private static Cliente altaCliente(Scanner sc) throws Exception {
         String nombre;

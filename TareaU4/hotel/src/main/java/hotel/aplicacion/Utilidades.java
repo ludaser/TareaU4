@@ -15,6 +15,8 @@ import java.util.Scanner;
  */
 public class Utilidades {
 	  
+	/** comprueba si un nº de dni cumple con los requisitos, los numeros y letras */
+	
     public static void validarDNI(String dni) throws Exception {
         if (dni == null || dni.length() != 9) {
             throw new Exception("El DNI debe tener 9 caracteres (8 números y 1 letra)");
@@ -33,6 +35,12 @@ public class Utilidades {
         }
     }
 
+    
+    /** manda al usuario que introduzca una fecha con formato preestablecido pasándolo a LocalDate, si no se hace bien,
+     * se va repitiendo hasta que introduzca una fecha válida
+     * @param mensaje
+     * @return
+     */
     public static LocalDate leerFecha(String mensaje) {
         Scanner sc = new Scanner(System.in);
         LocalDate fecha = null;
@@ -49,6 +57,8 @@ public class Utilidades {
         }
         return fecha;
     }
+    
+    /** Valida que las fechas de entrada y salida sean correctas. */
     
     public static void validarFechas(LocalDate fechaInicio, LocalDate fechaFin) throws Exception {
         LocalDate hoy = LocalDate.now();
