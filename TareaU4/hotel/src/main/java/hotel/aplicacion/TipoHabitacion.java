@@ -8,7 +8,7 @@ package hotel.aplicacion;
  *
  * @author David
  * 
- * En ésta clase se indica si los tipos de habitaciones son dobles o suites
+ * En ésta clase se indica si los tipos de habitaciones son Dobles o Suites
  */
 
 public enum TipoHabitacion {

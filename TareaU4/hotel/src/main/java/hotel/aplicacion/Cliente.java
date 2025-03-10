@@ -63,7 +63,7 @@ public class Cliente {
         return dni;
     }
 
-    /** establece/implementa el dni del cliente */
+    /** Establece/implementa el dni del cliente */
     public void setDni(String dni) {
         this.dni = dni;
     }
