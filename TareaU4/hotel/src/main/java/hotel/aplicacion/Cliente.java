@@ -58,7 +58,7 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    /** obtiene el dni del cliente */
+    /** obtiene el dnii del cliente */
     public String getDni() {
         return dni;
     }

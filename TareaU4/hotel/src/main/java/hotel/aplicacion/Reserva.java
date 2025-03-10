@@ -46,7 +46,7 @@ public class Reserva {
         return contadorReservas;
     }
 
-    /** Calcula el coste total de la reserva según el nº de noches, tipo de habitación y si quieren cama supletoria */
+    /** Calcula el coste total de la reserva según el nº de noches, tipo de habitación y si desean cama supletoria */
     
     public double calcularCosteTotal() {
         long noches = ChronoUnit.DAYS.between(fechaEntrada, fechaSalida);

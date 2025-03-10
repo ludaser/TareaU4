@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class Hotel {
 	
- /** Crea menú interactivo para gestionar los clientes y reservas */
+ /** Crea menú interactivo para gestionar los clientes y reservas del hotel */
 	
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

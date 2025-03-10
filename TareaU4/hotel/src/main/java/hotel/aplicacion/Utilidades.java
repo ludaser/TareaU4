@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class Utilidades {
 	  
-	/** comprueba si un nº de dni cumple con los requisitos, los numeros y letras */
+	/** Comprueba si un nº de dni cumple con los requisitos, los numeros y letras */
 	
     public static void validarDNI(String dni) throws Exception {
         if (dni == null || dni.length() != 9) {
